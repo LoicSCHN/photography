@@ -1,0 +1,169 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+	  vertical-align: baseline;
+    box-sizing: border-box;
+    outline: none;
+}
+
+header{
+	width: 100%;
+	background-color: rgba(0,0,0,1);
+	color: black;
+	height: 8vh;
+	margin: 0px 0px 50px 0px;
+	
+	
+}
+/* ----------------------- body ---------------------------*/
+body{
+	background-image: url("IMG/0.50.jpg") ;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
+
+/* ----------------------- MENU HAUT DE PAGE ---------------------------*/
+
+.menu ul {
+		margin-left: 7vw;
+}
+.menu li {
+	display: inline-block;
+	background-color: rgba(0,0,0,1);
+	height: auto;
+	vertical-align: middle;
+	width: 12vw;
+	text-align: center;
+	margin-right: 5vw;
+	padding-top: 2vh;
+	position: relative;
+}
+.lienmenu:link, .lienmenu:visited {
+	color: white;
+	display: block;
+	transition: all 0.1s ease;
+	text-decoration: none;
+	max-height: 6vh;
+	
+}
+
+
+
+/* ------------ FORMULAIRE CREATION DE COMPTE ET INSCRIPTION ----------*/
+.formAccCO{
+	width: 30vw;
+	height: 50vh;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.5);
+}
+.loginConnexion{
+	margin-top: 15vh;
+	margin-bottom: 3vh;
+}
+.passwordConnexion{
+	margin-bottom: 3vh;
+}
+legend{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2em;
+	font-weight: 600;
+}
+input{
+	margin-top: 2vh;
+
+	border-radius: 0px;
+}
+
+/* -------------------------- Mise en page -------------------------*/
+.div1{
+	width: 90%;
+	height: auto;
+	background-color: rgba(255,255,255,0.5);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 10vh;
+	/*	border: solid 3px;*/
+
+}
+
+/* -------------------------- Fiche de compte -------------------------*/
+
+td{
+	padding: 10px;
+}
+
+.bienvenueCompte{
+	margin: 0px 0px 0px 0px;
+	background-color: rgba(255,255,255,0.9);
+}
+.photoSupLien{
+	color: black;
+}
+/* -------------------------- Image -------------------------*/
+
+.img
+{
+	margin-bottom: 3vh;
+}
+
+.cphoto
+{
+	height: 200px;
+	width: 300px;
+}
+
+.waitinglistphoto
+{
+	height: 200px;
+	width: 300px;
+	margin-top: 30px;
+}
+.listphoto
+{
+	height: 180px;
+	width: 320px;
+	margin-top: 30px;
+}
+
+/* -------------------------- Page photo -------------------------*/
+.photo1{
+	display: flex;
+	flex-direction: row;
+	min-width: 200px;
+	margin-bottom: 2vh;
+	border-bottom: solid 3px black;
+}
+.photo2{
+	flex: 1 1 auto;
+	height: auto;
+	margin: 10px;
+	width: auto;
+}
+#photo22{
+	
+}
+.photo222{
+	text-align: left;
+}
+#photo23{
+	padding-top: 150px;
+}
+.supPhoto{
+	width: 200px;
+	height: 50px;
+	background-color: rgb(255,255,255);
+	border: solid 1px rgb(255,213,15);
+	margin: 0px;
+}
+.supPhoto:hover{
+	background-color: rgb(220,220,220);
+}
+
