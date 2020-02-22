@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>LOÏC</title>
+	<title>Photography</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body class="">
