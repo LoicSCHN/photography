@@ -1,2 +1,2 @@
 # photography
-bandoned photo sharing website project
+Abandoned photo sharing website project
