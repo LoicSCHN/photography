@@ -78,7 +78,7 @@ HOP;
 		<?php	*/
 			echo "<div class='div1'>";
 			
-			echo "<h1 class='titreAcceuil'>Les dernieres infos du site : </h1>";
+			echo "<h1 class='titreAcceuil'>Les dernieres infos: </h1>";
 			echo "</br>";
 			if (isset($infos)) {
 				foreach($infos as $info) {
