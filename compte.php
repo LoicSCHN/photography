@@ -2,7 +2,7 @@
 
 			echo "<div class='div1'>";
 			if (isset($_SESSION["connected"])) {
-				echo "<h1 class='bienvenueCompte'> Bienvenue sur votre compte ".$_SESSION["name"]."</h1>";
+				echo "<h1 class='bienvenueCompte'> Votre compte ".$_SESSION["name"]."</h1>";
 				echo "</br>";
 				echo "</br>";
 				//echo date("j/n/Y");
